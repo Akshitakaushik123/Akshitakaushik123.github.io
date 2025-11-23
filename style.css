@@ -1,0 +1,673 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: #2c3e50;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00c6ff;
+}
+
+#index {
+
+    #para1,
+    #para2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #slowPara {
+        font-size: 18px;
+        color: #75116b;
+        font-family: cursive;
+        line-height: 1.7;
+        text-align: justify;
+        margin: 30px;
+        border-right: 2px solid black;
+        white-space: pre-wrap;
+        overflow: hidden;
+        animation: blinkCursor 0.7s infinite;
+    }
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+footer h2,
+footer h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer_1,
+.footer_2,
+.footer_3 {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer_1 p {
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.footer_2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_2 ul li {
+    margin: 8px 0;
+}
+
+.footer_2 ul li a {
+    color: #ccc;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.footer_2 ul li a:hover {
+    color: #00c6ff;
+}
+
+.footer_3 p {
+    margin: 5px 0;
+    color: #ccc;
+}
+
+
+.socials {
+    margin-top: 15px;
+}
+
+.socials a {
+    color: white;
+    margin-right: 15px;
+    font-size: 22px;
+    transition: color 0.3s ease;
+}
+
+.socials a:hover {
+    color: #00c6ff;
+}
+
+.footer_bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+#index {
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+
+    .hero input {
+        padding: 12px 15px;
+        width: 300px;
+        font-size: 16px;
+        border: 2px solid;
+        border-radius: 20px;
+    }
+
+    .hero a {
+        padding: 12px 25px;
+        background: linear-gradient(90deg, #00b4db, #0083b0);
+        font-size: 16px;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .hero a:hover {
+        background: linear-gradient(90deg, #0083b0, #00b4db);
+        text-decoration: underline;
+    }
+
+    .sect {
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 40px 20px;
+        font-family: 'Poppins', sans-serif;
+        border-bottom: 1px solid #222;
+        margin: 0;
+    }
+
+    section {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 50px 0;
+        background-color: white;
+        color: black;
+    }
+
+    .section.button {
+        margin: 20px 0;
+    }
+
+    .custom-btn {
+        padding: 10px 25px;
+        background: linear-gradient(90deg, #00b4db, #0083b0);
+        color: white;
+        font-size: 1rem;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin: 10px;
+    }
+
+    .custom-btn:hover {
+        transform: scale(1.05);
+        background: linear-gradient(90deg, #0083b0, #00b4db);
+    }
+
+    .carousel {
+        max-width: 900px;
+        margin: 40px auto;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .carousel-inner img {
+        height: 480px;
+        object-fit: cover;
+        transition: transform 0.6s ease-in-out;
+    }
+
+    .carousel-inner img:hover {
+        transform: scale(1.03);
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 50%;
+        padding: 12px;
+    }
+
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .carousel-caption {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 15px;
+        border-radius: 10px;
+        bottom: 25px;
+    }
+}
+
+#index,
+#destinations,
+#delhi {
+    .card {
+        background-size: cover;
+        background-position: center;
+        border-radius: 18px;
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        font-family: 'Poppins', cursive;
+        padding: 25px;
+        min-height: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: left;
+    }
+
+    .card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.7) 100%);
+        z-index: 0;
+    }
+
+    .card * {
+        position: relative;
+        z-index: 1;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+    }
+
+    .card-title {
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #ffffff;
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+        margin-bottom: 10px;
+    }
+
+    .card-text {
+        color: #f1f1f1;
+        font-size: small;
+        line-height: 1.6;
+        font-style: italic;
+        text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    .btn-primary {
+        align-self: flex-start;
+        background: linear-gradient(90deg, #00b4db, #0083b0);
+        border: none;
+        border-radius: 25px;
+        padding: 8px 18px;
+        font-weight: 600;
+        color: #fff;
+        transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background: linear-gradient(90deg, #0083b0, #00b4db);
+        transform: scale(1.05);
+    }
+}
+
+#about {
+    .about-hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url('https://assets.smfgindiacredit.com/sites/default/files/Travel-In-India-In-September.jpg?VersionId=Fq_Ctw_DcjsrqkE5BgKzZ8CgosvhYZnL');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding: 100px 20px;
+    }
+
+    .about-hero h1 {
+        font-size: 42px;
+        font-weight: 600;
+    }
+
+    .about-hero p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 60px 10%;
+        background-color: #f9f9f9;
+    }
+
+    .about-text {
+        flex: 1;
+        min-width: 300px;
+        margin-right: 40px;
+    }
+
+    .about-text h2 {
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+
+    .about-text p {
+        color: #555;
+        margin-bottom: 20px;
+        line-height: 1.7;
+    }
+
+    .about-text ul {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        color: #333;
+        line-height: 1.8;
+    }
+
+    .about-image {
+        flex: 1;
+        min-width: 300px;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 100%;
+        max-width: 450px;
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+}
+
+#contact {
+    .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        gap: 30px;
+
+        padding: 60px 20px;
+    }
+
+    .contact-info,
+    .contact-form {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        flex: 1;
+        min-width: 320px;
+        max-width: 480px;
+    }
+
+    .contact-info h2,
+    .contact-form h2 {
+        color: #ff6f61;
+        margin-bottom: 15px;
+        font-size: 1.6rem;
+    }
+
+    .contact-info p {
+        line-height: 1.7;
+        margin-bottom: 12px;
+        color: #555;
+    }
+
+    .contact-info a {
+        color: #ff6f61;
+        text-decoration: none;
+    }
+
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 12px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+        border-color: #ff6f61;
+        outline: none;
+        box-shadow: 0 0 5px rgba(255, 111, 97, 0.4);
+    }
+
+    .contact-form button {
+        background: #ff6f61;
+        color: white;
+        border: none;
+        padding: 12px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background 0.3s ease;
+    }
+
+    .contact-form button:hover {
+        background: #e65b50;
+    }
+}
+
+#plan {
+    .plan-trip {
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .plan-trip h1 {
+        font-size: 2.5rem;
+        color: #ff6f61;
+        margin-bottom: 10px;
+    }
+
+    .plan-trip p {
+        color: #555;
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+
+    form {
+        background: #fff;
+        padding: 25px;
+        border-radius: 15px;
+        max-width: 500px;
+        margin: auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        text-align: left;
+    }
+
+    label {
+        display: block;
+        margin: 10px 0 5px;
+        font-weight: 600;
+    }
+
+    input,
+    select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        outline: none;
+        transition: 0.2s;
+    }
+
+    input:focus,
+    select:focus {
+        border-color: #4e54c8;
+        box-shadow: 0 0 4px #4e54c8;
+    }
+
+    button {
+        background-color: #ff6f61;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    button:hover {
+        background-color: red;
+    }
+
+    #planResult {
+        margin-top: 40px;
+        background: #fff;
+        padding: 25px;
+        border-radius: 15px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        line-height: 1.6;
+    }
+}
+
+.delhi {
+    .destination-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .destination-card:hover {
+        transform: translateY(-3px);
+        transition: 0.3s ease;
+    }
+
+    .read-btn {
+        margin-top: 10px;
+        padding: 8px 15px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .details {
+        margin-top: 15px;
+        padding: 10px;
+        display: none;
+        background: #f8f8f8;
+        border-radius: 10px;
+        border-left: 4px solid #007bff;
+    }
+    .plan-btn{
+        color:white;
+        text-decoration: none;
+        border: 2px solid black;
+        background: #ff6f61;
+        font-size: large;
+        padding: 7px;
+        margin: 5px; 
+        border-radius: 5px;;   
+    }
+    .plan-btn:hover{
+        color:red;
+    }
+}
+
+#login {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.box-login {
+    border: 2px solid black;
+    padding: 30px;
+    background: #faf6f6;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+    margin: auto;
+}
+
+#login-heading {
+    color: #ff6f61;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px 0;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+#btn-login {
+    width: 100%;
+    padding: 12px;
+    background: #ff6f61;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.2s ease;
+}
+
+#btn-login:hover {
+    background: #de1212;
+}
+
+#login-para {
+    text-align: center;
+    font-family: cursive;
+    font-size: medium;
+    margin-top: 27px;
+}
+
+#login-para a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+#login-para a:hover {
+    text-decoration: underline;
+}
+#signup-heading {
+    color: #ff6f61;
+    text-align: center;
+    margin-bottom: 12px;
+}
+#signup-para {
+    text-align: center;
+    font-family: cursive;
+    font-size: medium;
+    margin-top: 27px;
+}
+#signup-para a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+#signup-para a:hover {
+    text-decoration: underline;
+}

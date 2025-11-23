@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Sharing Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="index">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="plan_trip.html">Plan Trips</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="sect">
+            <marquee direction="left" scrollamount="6" style="color:#75116b; font-family: cursive;">Explore
+                the
+                beauty of
+                India — Visit mountains, beaches, deserts & cities. Discover culture, taste local food, and make
+                memories
+                that last forever.
+            </marquee>
+            <div class="hero">
+                <input type="text" placeholder="Search Destinations">
+                <a href="login.html">Login</a>
+                <a href="signup.html">Sign Up</a>
+            </div>
+        </div>
+        <section>
+            <article>
+                <p id="para1"><q>Your Journey, One Click Away</q></p>
+                <p id="para2"><q>Explore destinations, find travel tips, or share your own experiences</q></p>
+                <div class="section my-button">
+                    <a href="destinations.html"><button class="custom-btn">Explore Now</button></a>
+                    <a href="plan_trip.html"><button class="custom-btn">Plan Your Journey</button></a>
+                </div>
+                <br>
+
+                <div id="travelCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+                    <div class="carousel-inner rounded-3 shadow">
+                        <div class="carousel-item active">
+                            <img src="https://static.investindia.gov.in/s3fs-public/2023-06/1.jpg" class="d-block w-100"
+                                alt="Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.indiatravelblog.com/attachments/resources/6563-1-The-Best-Tourist-Places-To-Visit-In-India.jpg"
+                                class="d-block w-100" alt="Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.udantravel.com/upload/udan65410india-best-places-to-visit-agra.jpg"
+                                class="d-block w-100" alt="Image 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/best-places-to-visit-in-india.jpg"
+                                class="d-block w-100" alt="Image 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://blog.lemontreehotels.com/wp-content/uploads/2025/02/best-places-to-visit-in-May-in-India.jpeg"
+                                class="d-block w-100" alt="Image 5">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#travelCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#travelCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+
+                <br>
+                <p id="slowPara"></p>
+                <br>
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card p-4"
+                                style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCjnzdhaHYEWU9SVVvBPXFVmbv5EzzXtWCKQ&s);">
+                                <h2 class="card-title">Delhi – The Heart of India</h2>
+                                <p class="card-text">Blend of history and modern life — from Red Fort to Connaught
+                                    Place.
+                                </p>
+                                <a href="states/delhi.html" class="btn btn-primary">View Destinations</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card p-4"
+                                style="background-image: url(https://static.toiimg.com/img/115224983/Master.jpg);">
+                                <h2 class="card-title">Rajasthan – Land of brave kings</h2>
+                                <p class="card-text">Known for royal palaces, vibrant markets, and heritage architecture
+                                    like Hawa Mahal.</p>
+                                <a href="states/rajasthan.html" class="btn btn-primary">View Destinations</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card p-4"
+                                style="background-image: url(https://snowviewmanali.com/wp-content/uploads/2025/05/Best-Time-to-Visit-Manali.png);">
+                                <h2 class="card-title">Himachal Pradesh – The Himalayan Paradise</h2>
+                                <p class="card-text">Snowy peaks, adventure sports, and breathtaking valleys in the
+                                    Himalayas.</p>
+                                <a href="states/hp.html" class="btn btn-primary">View Destinations</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card p-4"
+                                style="background-image: url(https://img.etimg.com/thumb/msid-120404843,width-480,height-360,imgsize-1771449,resizemode-75/goa-the-coastal-paradise.jpg);">
+                                <h2 class="card-title">Goa – The Coastal Paradise</h2>
+                                <p class="card-text">Golden beaches, night markets, and Portuguese charm — perfect for
+                                    every traveler.</p>
+                                <a href="states/goa.html" class="btn btn-primary">View Destinations</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card p-4"
+                                style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnc5A6m41HpTrLLtBjYZ2SvkLDhJYXad1i5g&s);">
+                                <h2 class="card-title">Uttar Pradesh – Land of Culture, Faith & Legacy</h2>
+                                <p class="card-text">Witness the divine Ganga aarti and explore ancient ghats full of
+                                    culture and faith.</p>
+                                <a href="states/up.html" class="btn btn-primary">View Destinations</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card p-4"
+                                style="background-image: url(https://thestrategystory.com/wp-content/uploads/2021/01/image-17.png);">
+                                <h2 class="card-title">Kerala – God’s Own Country</h2>
+                                <p class="card-text">Lush greenery, peaceful backwaters, and houseboat stays make Kerala
+                                    unforgettable.</p>
+                                <a href="states/kerala.html" class="btn btn-primary">View Destinations</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer_1">
+                <h2>ExploreEase</h2>
+                <p>Explore India's most stunning destinations — from hidden gems to iconic landmarks.
+                    Plan your perfect trip effortlessly.</p>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3498.833058638734!2d77.0609100744329!3d28.724534679898785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDQzJzI4LjMiTiA3N8KwMDMnNDguNiJF!5e0!3m2!1sen!2sin!4v1762084499777!5m2!1sen!2sin"
+                        width="100%" height="200" style="border:0; border-radius:10px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="footer_2">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="plan_trip.html">Plan Trips</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h3>Contact Us</h3>
+                <p>Email: exploreease@gmail.com</p>
+                <p>Phone: +91 92683 14222</p>
+
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <p>&copy; 2025 ExploreEase | Designed with ❤️ in India</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
